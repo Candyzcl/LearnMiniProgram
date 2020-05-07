@@ -1,0 +1,11 @@
+<!--components/my-style/my-style.wxml-->
+<view class="title">我是style标题</view>
+<view class="content">我是style的内容</view>
+
+<!-- 样式的相互影响 -->
+<!--
+  styleIsolation:
+  -isolated:不会相互影响
+  -apply-shared：wxss将影响自定义组件
+  -shared：wxss与自定义组件相互影响
+-->
